@@ -22,13 +22,13 @@ public class ARN {
 
     //pour comparer entre 2 ARN:
     public static void comparer(ARN a, ARN b){
-        if (a.sequence == b.sequence){
+        if (a.sequence.equals(b.sequence) == true){
             System.out.println("leur sequence sont identiques");
         } else {
             System.out.println("leur sequence sont differents");
         }
 
-        if (a.appariements == b.appariements){
+        if (a.appariements.equals(b.appariements) == true){
             System.out.println("leur forme sont identiques");
         } else {
             System.out.println("leur forme sont differents");
