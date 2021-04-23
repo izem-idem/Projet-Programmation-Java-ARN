@@ -33,7 +33,7 @@ public class ARN {
             if (cha=='-' || cha=='(' || cha==')'){
             }
             else{
-                System.out.println("Le fomat n'est  valide");
+                System.out.println("Le fomat n'est pas valide");
                 System.exit(0);
             }
         }
